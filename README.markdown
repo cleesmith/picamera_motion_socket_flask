@@ -35,6 +35,11 @@ http://www.amazon.com/gp/product/B007VDTTTM/ref=oh_aui_detailpage_o03_s00?ie=UTF
 
 ## on the Raspberry Pi and other server
 
+### ensure folder and host/port settings are correct, see:
+* all_images.py
+* server.py
+* detect_motion_socket_send.py
+
 ### ensure Python is installed:
 ```
 python --version
