@@ -106,7 +106,7 @@ http://localhost:5000/
 
 ## Future enhancements
 * perform image sends from the pi asynchronously
-* or use SCP batch to send images
+* use SCP batch to send images
 * allow deletion of images via web app UI
 * allow different sort order of images via web app UI
 
