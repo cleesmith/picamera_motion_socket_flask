@@ -62,6 +62,8 @@ sudo apt-get install python-setuptools
 sudo apt-get install python-pip
 ```
 
+***
+
 ## on the Raspberry Pi
 
 ### install Numpy:
@@ -87,6 +89,8 @@ python detect_motion_socket_send.py
 ```
 > It's probably best to wait until the socket server is started before starting
 the above ... see below.
+
+***
 
 ## On another server
 > Maybe, on the same Raspberry Pi (RPi). This was not tested, because if you're using
@@ -118,10 +122,14 @@ python all_images.py
 http://localhost:5000/
 ```
 
+***
+
 ## Observations
 * the setup is senstive enough to detect cat movements, but it's not too sensitive
 * at night, there needs to be ample lighting ... tested with Mr. Beams MB363
 * worked well sending images to a Mac and to a remote server at DigitalOcean
+
+***
 
 ## Future enhancements
 * perform image sends from the pi asynchronously
