@@ -2,7 +2,7 @@
 
 ***
 
-### Ok, so I bought a Pi.  I made some lights blink.  Now what?
+> Ok, so I bought a Pi.  I made some lights blink.  Now what?
 I decided keeping an eye on things around the house was a useful project.
 
 ## Hardware: total cost: $114.44
