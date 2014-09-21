@@ -10,6 +10,7 @@ def home():
   # generate the url for each pic, then render templates/index.html:
   path_to_watch = '/some/folder/run_on_some_server/images_web_app/static'
   pics = os.listdir(path_to_watch)
+  # remove ", reverse=True" if you prefer viewing images in ascending sort order:
   pics.sort(key=lambda x: os.stat(os.path.join(path_to_watch, x)).st_mtime, reverse=True)
   pic_urls = []
   for pic in pics:

@@ -21,6 +21,7 @@ def signal_term_handler(signal, frame):
 # using "sudo kill some_pid:
 signal.signal(signal.SIGTERM, signal_term_handler)
 
+# change_me: to your host and port:
 HOST = '192.168.0.2'
 PORT = 9876
 HOST_PORT = (HOST,PORT)
@@ -52,13 +53,14 @@ class DetectMotion(picamera.array.PiMotionAnalysis):
 camera = picamera.PiCamera()
 with DetectMotion(camera) as output:
   try:
+    # change_me: to whatever resolution you want:
     camera.resolution = (640, 480)
     camera.framerate= 10
-    # record video to nowhere, as we are just trying to capture images:
+    # record video to nowhere, as we are just trying to detect motion and capture images:
     camera.start_recording('/dev/null', format='h264', motion_output=output)
     while True:
       while not motion_detected:
-        # this prints a lot, so maybe comment this out after testing:
+        # change_me: this prints a lot, so maybe comment this out after testing:
         LOG.info('waiting for motion...')
         camera.wait_recording(1)
 
@@ -66,8 +68,8 @@ with DetectMotion(camera) as output:
       camera.stop_recording()
       motion_detected = False
 
-      # save jpeg on the pi locally:
-      # filename = '/home/pi/picamera_quick_start/' + \
+      # save image on the pi locally:
+      # filename = '/home/pi/some_folder/' + \
       #   datetime.datetime.now().strftime('%Y-%m-%dT%H.%M.%S.%f') + '.jpg'
       # camera.capture(filename, format='jpeg', use_video_port=True)
       # LOG.info('image captured to file: %s' % filename)
@@ -75,6 +77,7 @@ with DetectMotion(camera) as output:
       # if there is a lot of traffic, i.e. captured images, then
       # the following code should be performed asynchronously:
       stream = io.BytesIO()
+      # camera.capture(stream, format='png', use_video_port=True)
       camera.capture(stream, format='jpeg', use_video_port=True)
       client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
       client.connect(HOST_PORT)
@@ -89,7 +92,7 @@ with DetectMotion(camera) as output:
       stream.seek(0)
       stream.truncate()
 
-      # record video to nowhere, as we are just trying to capture images:
+      # record video to nowhere, as we are just trying to detect motion and capture images:
       camera.start_recording('/dev/null', format='h264', motion_output=output)
   except KeyboardInterrupt as e:
     LOG.info("\nreceived KeyboardInterrupt via Ctrl-C")

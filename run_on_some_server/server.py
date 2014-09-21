@@ -1,6 +1,7 @@
 import socket
 import datetime
 
+# change_me: to your host and port:
 HOST = '192.168.0.2'
 PORT = 9876
 ADDR = (HOST,PORT)
@@ -12,6 +13,8 @@ print('listening ...')
 while True:
   conn, addr = serv.accept()
   print('client connected ... ', addr)
+  # if you capture images as png then change the '.jpg' ...
+  # change_me: ensure complete path to images folder is correct:
   filename = '/some/folder/picamera_motion_socket/images/static/' + \
     datetime.datetime.now().strftime('%Y-%m-%dT%H.%M.%S.%f') + '.jpg'
   # create and open file for writing:
