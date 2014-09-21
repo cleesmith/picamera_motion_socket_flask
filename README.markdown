@@ -150,7 +150,10 @@ to exploitation
 * allow different sort order of images via web app UI
 * at night have server.py play a sound when a new image arrives, which could 
 wake you up so you can then scream "Annie get your gun!" ... of course, the
-name of your heavily armed partner may vary
+name of your heavily armed partner may vary ... in case you're without a
+partner, maybe, create a RPi robot with an attached pistol and the new
+Pigun module (set trigger=hair), name it Annie or Wyatt, imagine the fun 
+while bringing the groceries while under being fired at by your own robot
 
 ***
 
