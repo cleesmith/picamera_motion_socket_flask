@@ -2,7 +2,7 @@
 
 ***
 
-> Ok, so I bought a Pi.  I made some lights blink.  Now what?
+> Ok, so I bought a Raspberry Pi.  It blinks. Got it.  Now what?
 I decided keeping an eye on things around the house was a useful project.
 Sure, I would have rather designed and built a robot that can self-balance,
 recognize faces/objects, or retrieve beers from the fridge ... but what 
