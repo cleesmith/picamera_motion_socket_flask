@@ -141,7 +141,8 @@ act as though they meant to do that (crazy cats)
 * use SCP batch to send images
 * allow deletion of images via web app UI
 * allow different sort order of images via web app UI
-* at night have server.py play a sound when a new image is sent
+* at night have server.py play a sound when a new image is sent, which could 
+wake you up so you can then scream "Annie get your gun!"
 
 ***
 
