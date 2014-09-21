@@ -138,6 +138,7 @@ act as though they meant to do that (crazy cats)
 ***
 
 ## Future enhancements
+* YouTube video demostration
 * perform image sends from the pi asynchronously
 * use SCP batch to send images
 * allow deletion of images via web app UI
