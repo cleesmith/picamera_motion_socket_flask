@@ -146,6 +146,9 @@ wake you up so you can then scream "Annie get your gun!"
 
 ***
 
-enjoy your new found safety :-)
+> No cats were harmed, maybe embarassed a bit, during this setup.  There is no 
+implied or expressed guarantee that this setup will deter thieves or mass murderers 
+should such folks approach your home.
+Otherwise, enjoy your new found safety :-)
 
 ***
