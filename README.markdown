@@ -134,7 +134,7 @@ plus you get funny cat pics as they roll around on the porch and fall off the ed
 act as though they meant to do that (crazy cats)
 * at night, there needs to be ample lighting ... tested with Mr. Beams MB363
 * worked well sending images to a Mac and to a remote server at DigitalOcean, but
-it is not a secure setup for remote server ... as any open port is an invitation
+it is not a secure setup for a remote server ... as any open port is an invitation
 to exploitation
 
 ***
