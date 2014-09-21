@@ -111,6 +111,9 @@ python server.py
 ```
 
 ### trigger motion detection by moving in front of camera:
+
+> doing an Irish gig works but is not required
+
 ```
 ls -la run_on_some_server/images_web_app/static
 ... should list *.jpg files
