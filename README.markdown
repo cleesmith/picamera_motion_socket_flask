@@ -139,6 +139,8 @@ act as though they meant to do that (crazy cats)
 * worked well sending images to a Mac and to a remote server at DigitalOcean, but
 it is not a secure setup for a remote server ... as any open port is an invitation
 to exploitation
+* this setup works just as well if the camera is duct taped to the inside of a clean window,
+and that's cheaper too
 
 ***
 
