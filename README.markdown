@@ -99,7 +99,7 @@ the above ... see below.
 ## (3) On another server
 > Maybe, on the same Raspberry Pi (RPi). This was not tested, because if you're using
 this setup to "catch a thief" or whatever then having the images on the RPi isn't 
-going to help as they could just smash it or take it leaving you with no images.
+going to help as they could just smash it or take it ... leaving you with no images.
 Of course, this all depends on your situation.
 
 ### start socket server:
