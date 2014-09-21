@@ -1,4 +1,4 @@
-# Sep 21, 2014: Picamera motion detection
+# Sep 2014: Picamera motion detection
 
 ***
 
