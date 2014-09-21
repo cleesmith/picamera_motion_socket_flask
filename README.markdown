@@ -54,6 +54,7 @@ sudo apt-get install python-pip
 ```
 sudo pip install numpy
 ```
+> Numpy is used by picamera.array.PiMotionAnalysis to detect motion.
 
 ### install Picamera:
 ```
