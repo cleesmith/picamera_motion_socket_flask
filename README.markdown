@@ -63,7 +63,7 @@ sudo apt-get install python-picamera
 sudo pip install Flask
 ```
 
-### on some server start socket server:
+### on some server, start socket server:
 ```
 git clone https://github.com/cleesmith/picamera_motion_socket_flask.git
 python server.py
