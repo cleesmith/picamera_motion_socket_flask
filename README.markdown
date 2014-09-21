@@ -2,8 +2,6 @@
 
 ***
 
-# Installation Guide
-
 ## Hardware: total cost: $114.44 as of Sep 21, 2014
 
 ### Required:
@@ -29,6 +27,9 @@ http://www.amazon.com/gp/product/B00IJZJKK4/ref=oh_aui_detailpage_o08_s00?ie=UTF
 4. Monoprice 108431 Dummy Outdoor Brick Camera  $20.41
 http://www.amazon.com/gp/product/B007VDTTTM/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1
 
+***
+
+# Installation Guide
 
 ### ensure Python is installed:
 ```
