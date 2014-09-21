@@ -2,7 +2,7 @@
 
 ***
 
-## Hardware: total cost: $114.44 as of Sep 21, 2014
+## Hardware: total cost: $114.44
 
 ### Required:
 1. Raspberry Pi Model B+ (B PLUS) 512MB Computer  $39.44
