@@ -58,19 +58,6 @@ sudo rpi-update
 sudo apt-get install python-picamera
 ```
 
-## On another server
-> Maybe, on the same Raspberry Pi (RPi). This was not tested, because if you're using
-this setup to "catch a thief" or whatever then having the images on the RPi isn't 
-going to help as they could just smash it or take it leaving you with no images.
-Of course, this all depends on your situation.
-
-### on some server, start socket server:
-```
-git clone https://github.com/cleesmith/picamera_motion_socket_flask.git
-cd picamera_motion_socket_flask/run_on_some_server
-python server.py
-```
-
 ### install motion detection socket send:
 ```
 git clone https://github.com/cleesmith/picamera_motion_socket_flask.git
@@ -78,6 +65,19 @@ cd picamera_motion_socket_flask
 ... test it:
 cd picamera_motion_socket_flask/run_on_raspberry_pi
 python detect_motion_socket_send.py
+```
+
+## On another server
+> Maybe, on the same Raspberry Pi (RPi). This was not tested, because if you're using
+this setup to "catch a thief" or whatever then having the images on the RPi isn't 
+going to help as they could just smash it or take it leaving you with no images.
+Of course, this all depends on your situation.
+
+### start socket server:
+```
+git clone https://github.com/cleesmith/picamera_motion_socket_flask.git
+cd picamera_motion_socket_flask/run_on_some_server
+python server.py
 ```
 
 ### trigger motion detection by moving in front of camera:
