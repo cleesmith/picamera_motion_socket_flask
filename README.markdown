@@ -33,6 +33,8 @@ http://www.amazon.com/gp/product/B007VDTTTM/ref=oh_aui_detailpage_o03_s00?ie=UTF
 
 # Installation Guide
 
+## on the Raspberry Pi and other server
+
 ### ensure Python is installed:
 ```
 python --version
