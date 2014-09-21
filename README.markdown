@@ -60,6 +60,7 @@ sudo apt-get install python-picamera
 > Maybe, on the same Raspberry Pi (RPi). This was not tested, because if you're using
 this setup to "catch a thief" or whatever then having the images on the RPi isn't 
 going to help as they could just smash it or take it leaving you with no images.
+Of course, this all depends on your setup.
 
 ### install Flask:
 ```
@@ -88,12 +89,18 @@ ls -la run_on_some_server/images_web_app/static
 ... should list *.jpg files
 ```
 
-### again, on some server, start flask web app to view images:
+### again, on some server, start the flask web app:
 ```
 cd picamera_motion_socket_flask/run_on_some_server/images_web_app
 python all_images.py
-... browse to:
+... use web browser to view images:
 http://localhost:5000/
 ```
+
+## Future enhancements
+* perform image sends from the pi asynchronously
+* or use SCP batch to send images
+* allow deletion of images via web app UI
+* allow different sort order of images via web app UI
 
 ***
