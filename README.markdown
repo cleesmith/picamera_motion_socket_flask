@@ -89,6 +89,8 @@ ls -la run_on_some_server/images_web_app/static
 ```
 cd picamera_motion_socket_flask/run_on_some_server/images_web_app
 python all_images.py
+... browse to:
+http://localhost:5000/
 ```
 
 ***
