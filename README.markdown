@@ -29,6 +29,12 @@ http://www.amazon.com/gp/product/B007VDTTTM/ref=oh_aui_detailpage_o03_s00?ie=UTF
 
 > Many of these items are less expensive from other sellers, such as Adafruit.
 
+### Optional lighting:
+1. Mr. Beams MB363 Wireless LED Spotlight with Motion Sensor and Photocell  $49.99
+http://www.amazon.com/gp/product/B008X099PQ/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1
+> These work great and they usually detect motion before the Picamera which means 
+you get a well lit image.
+
 ***
 
 # Installation Guide
@@ -103,6 +109,10 @@ python all_images.py
 ... use web browser to view images:
 http://localhost:5000/
 ```
+
+## Observations
+* the setup is senstive enough to detect cat movements, but it's not too sensitive
+* at night, there needs to be ample lighting
 
 ## Future enhancements
 * perform image sends from the pi asynchronously
