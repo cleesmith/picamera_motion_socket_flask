@@ -62,7 +62,7 @@ sudo rpi-update
 sudo apt-get install python-picamera
 ```
 
-### install motion detection socket send:
+### install motion detection with socket send:
 ```
 git clone https://github.com/cleesmith/picamera_motion_socket_flask.git
 cd picamera_motion_socket_flask
