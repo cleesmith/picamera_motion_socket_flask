@@ -43,7 +43,7 @@ sudo apt-get install python-setuptools
 sudo apt-get install python-pip
 ```
 
-## Raspberry Pi
+## on the Raspberry Pi
 
 ### install Numpy:
 ```
