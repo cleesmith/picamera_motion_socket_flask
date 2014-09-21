@@ -27,7 +27,9 @@ http://www.amazon.com/gp/product/B00IJZJKK4/ref=oh_aui_detailpage_o08_s00?ie=UTF
 4. Monoprice 108431 Dummy Outdoor Brick Camera  $20.41
 http://www.amazon.com/gp/product/B007VDTTTM/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1
 
-> Many of these items are less expensive from other sellers, such as Adafruit.
+> This dummy camera has plenty of room inside and it is mostly metal.
+
+> Note: many of the above items are less expensive from other sellers, such as Adafruit.
 
 ### Optional lighting:
 1. Mr. Beams MB363 Wireless LED Spotlight with Motion Sensor and Photocell  $49.99
@@ -114,6 +116,7 @@ http://localhost:5000/
 ## Observations
 * the setup is senstive enough to detect cat movements, but it's not too sensitive
 * at night, there needs to be ample lighting ... tested with Mr. Beams MB363
+* worked well sending images to a Mac and to a remote server at DigitalOcean
 
 ## Future enhancements
 * perform image sends from the pi asynchronously
