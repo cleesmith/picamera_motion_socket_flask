@@ -56,7 +56,8 @@ sudo rpi-update
 sudo apt-get install python-picamera
 ```
 
-## On another server (or even the same Raspberry Pi, maybe)
+## On another server
+> or even the same Raspberry Pi, maybe
 
 ### install Flask:
 ```
