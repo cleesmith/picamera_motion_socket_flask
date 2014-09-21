@@ -68,6 +68,8 @@ cd picamera_motion_socket_flask
 cd picamera_motion_socket_flask/run_on_raspberry_pi
 python detect_motion_socket_send.py
 ```
+> It's probably best to wait until the socket server is started before starting
+the above ... see below.
 
 ## On another server
 > Maybe, on the same Raspberry Pi (RPi). This was not tested, because if you're using
