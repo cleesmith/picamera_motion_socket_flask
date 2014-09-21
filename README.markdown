@@ -153,7 +153,7 @@ and that's cheaper too
 * at night have server.py play a sound when a new image arrives, which could 
 wake you up so you can then scream "Annie get your gun!" ... of course, the
 name of your heavily armed partner may vary ... in case you're without a
-partner, maybe, create a RPi robot with an attached pistol and the new
+partner, maybe, create a RPi robot with an attached pistol using the
 Pigun module (be sure to set trigger=hair), name it Annie or Wyatt, imagine the fun 
 as you try to bring the groceries inside while being fired at by your own robot
 
