@@ -144,6 +144,6 @@ act as though they meant to do that (crazy cats)
 
 ***
 
-enjoy!
+enjoy your new found safety :-)
 
 ***
