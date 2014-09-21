@@ -27,6 +27,8 @@ http://www.amazon.com/gp/product/B00IJZJKK4/ref=oh_aui_detailpage_o08_s00?ie=UTF
 4. Monoprice 108431 Dummy Outdoor Brick Camera  $20.41
 http://www.amazon.com/gp/product/B007VDTTTM/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1
 
+> Many of these items are less expensive from other sellers, such as Adafruit.
+
 ***
 
 # Installation Guide
