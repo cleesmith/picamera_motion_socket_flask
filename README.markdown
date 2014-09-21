@@ -6,7 +6,7 @@
 I decided keeping an eye on things around the house was a useful project.
 Sure, I would have rather designed and built a robot that can self-balance,
 recognize faces/objects, or retrieve beers from the fridge ... but what 
-good is that.
+good is that. Ok, you're right, fridge retrieval would be cool.
 
 ## Hardware: total cost: $114.44
 
