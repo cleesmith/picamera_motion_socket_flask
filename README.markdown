@@ -66,6 +66,7 @@ sudo pip install Flask
 ### on some server, start socket server:
 ```
 git clone https://github.com/cleesmith/picamera_motion_socket_flask.git
+cd picamera_motion_socket_flask/run_on_some_server
 python server.py
 ```
 
@@ -82,6 +83,12 @@ python detect_motion_socket_send.py
 ```
 ls -la run_on_some_server/images_web_app/static
 ... should list *.jpg files
+```
+
+### again, on some server, start flask web app to view images:
+```
+cd picamera_motion_socket_flask/run_on_some_server/images_web_app
+python all_images.py
 ```
 
 ***
