@@ -4,9 +4,9 @@
 
 # Installation Guide
 
-### Hardware: total cost: $114.44
+## Hardware: total cost: $114.44
 
-Required:
+### Required:
 1. Raspberry Pi Model B+ (B PLUS) 512MB Computer  $39.44
 http://www.amazon.com/gp/product/B00LPESRUK/ref=wms_ohs_product?ie=UTF8&psc=1
 
@@ -16,7 +16,7 @@ http://www.amazon.com/gp/product/B00DZLSEVI/ref=wms_ohs_product?ie=UTF8&psc=1
 3. Raspberry PI 5MP Camera Board  $24.99
 http://www.amazon.com/gp/product/B00E1GGE40/ref=wms_ohs_product?ie=UTF8&psc=1
 
-Optional:
+### Optional:
 1. Addicore Raspberry Pi Heatsink Set $5.10
 http://www.amazon.com/gp/product/B00HPQGTI4/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1
 
@@ -64,13 +64,13 @@ sudo pip install Flask
 
 ### on some server start socket server:
 ```
-git clone
+git clone https://github.com/cleesmith/picamera_motion_socket_flask.git
 python server.py
 ```
 
 ### install motion detection socket send:
 ```
-git clone
+git clone https://github.com/cleesmith/picamera_motion_socket_flask.git
 cd picamera_motion_socket_flask
 ... test it:
 cd picamera_motion_socket_flask/run_on_raspberry_pi
