@@ -113,7 +113,7 @@ http://localhost:5000/
 
 ## Observations
 * the setup is senstive enough to detect cat movements, but it's not too sensitive
-* at night, there needs to be ample lighting
+* at night, there needs to be ample lighting ... tested with Mr. Beams MB363
 
 ## Future enhancements
 * perform image sends from the pi asynchronously
