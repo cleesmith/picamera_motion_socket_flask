@@ -155,7 +155,7 @@ wake you up so you can then scream "Annie get your gun!" ... of course, the
 name of your heavily armed partner may vary ... in case you're without a
 partner, maybe, create a RPi robot with an attached pistol using the
 fictitious Pigun module (be sure to set trigger=hair), name it Annie or Wyatt, imagine 
-the fun as you try to bring the groceries inside while being fired at by your own robot
+the fun as you try to bring the groceries inside with your pigunbot on the prowl
 
 ***
 
