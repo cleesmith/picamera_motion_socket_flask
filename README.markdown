@@ -47,7 +47,7 @@ which means you get a well lit image.
 
 # Installation Guide
 
-## on the Raspberry Pi and other server
+## (1) on the Raspberry Pi and the other server
 
 ### ensure Python is installed:
 ```
@@ -64,7 +64,7 @@ sudo apt-get install python-pip
 
 ***
 
-## on the Raspberry Pi
+## (2) on the Raspberry Pi
 
 ### install Numpy:
 ```
@@ -92,7 +92,7 @@ the above ... see below.
 
 ***
 
-## On another server
+## (3) On another server
 > Maybe, on the same Raspberry Pi (RPi). This was not tested, because if you're using
 this setup to "catch a thief" or whatever then having the images on the RPi isn't 
 going to help as they could just smash it or take it leaving you with no images.
