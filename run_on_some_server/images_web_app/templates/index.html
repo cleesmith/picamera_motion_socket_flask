@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>Picamera</title>
+  <style type="text/css">
+    #centered_images {
+      width: 50%;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body style="background-color:slategray; color:white;">
+<h1 style="text-align:center">Picamera</h1>
+<hr>
+<div>
+{% for pic in pics %}
+  <div id="centered_images">
+    <figcaption>{{pic.split('/')[-1]}}</figcaption>
+    <img src="{{pic}}"/>
+    <br><br>
+  </div>
+{% endfor %}
+</div>
+<hr>
+</body>
