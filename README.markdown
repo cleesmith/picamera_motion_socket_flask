@@ -40,8 +40,9 @@ http://www.amazon.com/gp/product/B007VDTTTM/ref=oh_aui_detailpage_o03_s00?ie=UTF
 python --version
 ```
 
-### install PIP:
+### ensure PIP is installed:
 ```
+pip --version ... if not do:
 sudo apt-get install python-dev
 sudo apt-get install python-setuptools
 sudo apt-get install python-pip
