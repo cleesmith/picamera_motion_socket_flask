@@ -64,11 +64,6 @@ this setup to "catch a thief" or whatever then having the images on the RPi isn'
 going to help as they could just smash it or take it leaving you with no images.
 Of course, this all depends on your situation.
 
-### install Flask:
-```
-sudo pip install Flask
-```
-
 ### on some server, start socket server:
 ```
 git clone https://github.com/cleesmith/picamera_motion_socket_flask.git
@@ -91,8 +86,9 @@ ls -la run_on_some_server/images_web_app/static
 ... should list *.jpg files
 ```
 
-### again, on some server, start the flask web app:
+### again, on some server, install/start the flask web app:
 ```
+sudo pip install Flask
 cd picamera_motion_socket_flask/run_on_some_server/images_web_app
 python all_images.py
 ... use web browser to view images:
