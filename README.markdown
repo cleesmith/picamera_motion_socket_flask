@@ -33,7 +33,8 @@ http://www.amazon.com/gp/product/B00IJZJKK4/ref=oh_aui_detailpage_o08_s00?ie=UTF
 4. Monoprice 108431 Dummy Outdoor Brick Camera  $20.41
 http://www.amazon.com/gp/product/B007VDTTTM/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1
 
-> This dummy camera has plenty of room inside, waterproof, and it is mostly metal.
+> This dummy camera has plenty of room inside, waterproof, and it is mostly metal. But 
+it's best feature is a real glass plate in front, so the captured images are clear.
 
 ***
 
@@ -141,14 +142,14 @@ act as though they meant to do that (crazy cats)
 * use SCP batch to send images
 * allow deletion of images via web app UI
 * allow different sort order of images via web app UI
-* at night have server.py play a sound when a new image is sent, which could 
+* at night have server.py play a sound when a new image arrives, which could 
 wake you up so you can then scream "Annie get your gun!"
 
 ***
 
 > No cats were harmed, maybe embarassed a bit, during this setup.  There is no 
 implied or expressed guarantee that this setup will deter thieves or mass murderers 
-should such folks approach your home.
-Otherwise, enjoy your new found safety :-)
+should such folk approach your home.
+Otherwise, enjoy :-)
 
 ***
