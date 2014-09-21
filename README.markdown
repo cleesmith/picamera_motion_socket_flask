@@ -37,8 +37,8 @@ http://www.amazon.com/gp/product/B007VDTTTM/ref=oh_aui_detailpage_o03_s00?ie=UTF
 1. Mr. Beams MB363 Wireless LED Spotlight with Motion Sensor and Photocell  $49.99
 http://www.amazon.com/gp/product/B008X099PQ/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1
 
-> These work great and they usually detect motion before the Picamera which means 
-you get a well lit image.
+> These motion sensor lights work great and they usually detect motion before the Picamera
+which means you get a well lit image.
 
 ***
 
