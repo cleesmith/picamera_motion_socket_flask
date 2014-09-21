@@ -57,7 +57,9 @@ sudo apt-get install python-picamera
 ```
 
 ## On another server
-> or even the same Raspberry Pi, maybe
+> Maybe, on the same Raspberry Pi (RPi). This was not tested, because if you're using
+this setup to "catch a thief" or whatever then having the images on the RPi isn't 
+going to help as they could just smash it or take it leaving you with no images.
 
 ### install Flask:
 ```
