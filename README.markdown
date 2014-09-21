@@ -150,7 +150,7 @@ to exploitation
 * allow different sort order of images via web app UI
 * at night have server.py play a sound when a new image arrives, which could 
 wake you up so you can then scream "Annie get your gun!" ... of course, the
-name of your heavily armed partner may vary.
+name of your heavily armed partner may vary
 
 ***
 
