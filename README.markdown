@@ -130,7 +130,7 @@ http://localhost:5000/
 ## Observations
 * the setup is senstive enough to detect cat movements, but it's not overly sensitive,
 plus you get funny cat pics as they roll around on the porch and fall off the edge but
-act as though they meant to (crazy cats)
+act as though they meant to do that (crazy cats)
 * at night, there needs to be ample lighting ... tested with Mr. Beams MB363
 * worked well sending images to a Mac and to a remote server at DigitalOcean
 
