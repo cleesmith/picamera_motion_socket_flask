@@ -29,6 +29,8 @@ http://www.amazon.com/gp/product/B007VDTTTM/ref=oh_aui_detailpage_o03_s00?ie=UTF
 
 > This dummy camera has plenty of room inside and it is mostly metal.
 
+***
+
 > Note: many of the above items are less expensive from other sellers, such as Adafruit.
 
 ### Optional lighting:
