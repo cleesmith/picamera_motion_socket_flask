@@ -154,6 +154,7 @@ sudo reboot
 ### start detect_motion_socket_send.py in the background:
 
 > The following are possible ways to daemonize, i.e. start a program in the background:
+
 > 1. via nohup with ampersand ('&')
 > 2. via an Upstart script
 
