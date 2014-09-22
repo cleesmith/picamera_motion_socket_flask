@@ -88,7 +88,7 @@ sudo apt-get install python-picamera
 git clone https://github.com/cleesmith/picamera_motion_socket_flask.git
 cd picamera_motion_socket_flask
 ... test it:
-cd picamera_motion_socket_flask/run_on_raspberry_pi
+cd run_on_raspberry_pi
 nano detect_motion_socket_send.py ... ensure folder and host/port settings are correct
 python detect_motion_socket_send.py
 ```
@@ -130,6 +130,8 @@ python all_images.py
 http://localhost:5000/
 ```
 
+## (4) More stuff you may want to do on the Raspberry Pi
+
 ### after testing, you can turn off the red LED on the camera:
 ```
 sudo nano /boot/config.txt
@@ -138,6 +140,37 @@ disable_camera_led=1
 sudo reboot
 ```
 > Otherwise, the red LED causes a reflection in the glass pane at night.
+
+### start picamera in the background:
+
+> There following are possible ways to daemonize, i.e. start a program in the background:
+* via nohup with ampersand ('&')
+* via an Upstart script
+
+via nohup with ampersand ('&'):
+```
+cd picamera_motion_socket_flask
+nohup python detect_motion_socket_send.py &
+... the logger output will be in the nohup.out file in this folder
+... see if it's running and what the pid is:
+ps aux | grep -i python
+```
+> A disadvantage to using nohup is that it doesn't restart when the pi is rebooted. But
+it does allow you to exit out of the terminal while it continues to run in the background.
+
+via an Upstart script:
+```
+sudo apt-get install upstart
+sudo reboot
+sudo cp picamera_motion_socket_flask/upstart/etc/init/picamera-motion-capture.conf /etc/init/
+sudo service picamera-motion-capture start ... use stop to kill it
+... see if it's running and what the pid is:
+ps aux | grep -i python
+```
+> The advantage to installing and using Upstart to daemonize programs are:
+* they will start up on reboot
+* they can be set to respawn, in the case of the unforeseen this will restart the program
+* in common use on linux deployments
 
 ***
 

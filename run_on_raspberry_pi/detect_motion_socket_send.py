@@ -1,4 +1,5 @@
 #!/usr/bin/python
+import sys
 import signal
 import io
 import socket
@@ -8,16 +9,19 @@ import picamera.array
 import datetime
 import logging
 
+camera = picamera.PiCamera()
+
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 LOG = logging.getLogger("capture_motion")
 
 def signal_term_handler(signal, frame):
+  camera.close()
   LOG.info('shutting down ...')
   # this raises SystemExit(0) which fires all "try...finally" blocks:
   sys.exit(0)
 
 # this is useful when this program is started at boot (a daemon) 
-# via init.d or an Upstart script, so it can be killed gracefully
+# via nohup, init.d or an Upstart script, so it can be killed gracefully
 # using "sudo kill some_pid:
 signal.signal(signal.SIGTERM, signal_term_handler)
 
@@ -50,7 +54,6 @@ class DetectMotion(picamera.array.PiMotionAnalysis):
         LOG.info('motion detected at: %s' % datetime.datetime.now().strftime('%Y-%m-%dT%H.%M.%S.%f'))
         motion_detected = True
 
-camera = picamera.PiCamera()
 with DetectMotion(camera) as output:
   try:
     # change_me: to whatever resolution you want:
@@ -61,7 +64,7 @@ with DetectMotion(camera) as output:
     while True:
       while not motion_detected:
         # change_me: this prints a lot, so maybe comment this out after testing:
-        LOG.info('waiting for motion...')
+        # LOG.info('waiting for motion...')
         camera.wait_recording(1)
 
       LOG.info('stop recording and capture an image...')
@@ -79,25 +82,31 @@ with DetectMotion(camera) as output:
       stream = io.BytesIO()
       # camera.capture(stream, format='png', use_video_port=True)
       camera.capture(stream, format='jpeg', use_video_port=True)
-      client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-      client.connect(HOST_PORT)
-      connection = client.makefile('wb')
-      # rewind the stream and send the image data:
-      stream.seek(0)
-      connection.write(stream.read())
-      connection.close()
-      client.close()
-      LOG.info('image captured/sent via stream')
-      # reset the stream for the next capture
+
+      try:
+        client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        client.connect(HOST_PORT)
+        connection = client.makefile('wb')
+        # rewind the stream and send the image data:
+        stream.seek(0)
+        connection.write(stream.read())
+        connection.close()
+        client.close()
+        LOG.info('image captured/sent via stream')
+      except Exception:
+        LOG.info('Error: unable to send image to server at host: %s port: %s' % (HOST_PORT))
+        pass
+
+      # reset the stream for the next capture, do we need this ?
       stream.seek(0)
       stream.truncate()
 
       # record video to nowhere, as we are just trying to detect motion and capture images:
       camera.start_recording('/dev/null', format='h264', motion_output=output)
   except KeyboardInterrupt as e:
+    camera.close()
     LOG.info("\nreceived KeyboardInterrupt via Ctrl-C")
     pass
   finally:
-    camera.close()
     LOG.info("\ncamera turned off!")
     LOG.info("detect motion has ended.\n")
