@@ -130,6 +130,14 @@ python all_images.py
 http://localhost:5000/
 ```
 
+### to turn off red led on camera, which reflects in the glass pane:
+```
+sudo nano /boot/config.txt
+... add this line:
+disable_camera_led=1
+sudo reboot
+```
+
 ***
 
 ## Observations
@@ -146,7 +154,6 @@ and that's cheaper too
 ***
 
 ## Future enhancements
-* YouTube video demostration
 * perform image sends from the pi asynchronously
 * use SCP batch to send images
 * allow deletion of images via web app UI
