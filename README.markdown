@@ -130,7 +130,7 @@ python all_images.py
 http://localhost:5000/
 ```
 
-### after testing, you can turn off the red led on camera:
+### after testing, you can turn off the red led on the camera:
 ```
 sudo nano /boot/config.txt
 ... add this line:
