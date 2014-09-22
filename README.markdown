@@ -147,7 +147,7 @@ sudo reboot
 * via nohup with ampersand ('&')
 * via an Upstart script
 
-via nohup with ampersand ('&'):
+#### via nohup with ampersand ('&'):
 ```
 cd picamera_motion_socket_flask
 nohup python detect_motion_socket_send.py &
@@ -158,7 +158,7 @@ ps aux | grep -i python
 > A disadvantage to using nohup is that it doesn't restart when the pi is rebooted. But
 it does allow you to exit out of the terminal while it continues to run in the background.
 
-via an Upstart script:
+#### via an Upstart script:
 ```
 sudo apt-get install upstart
 sudo reboot
