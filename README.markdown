@@ -130,14 +130,14 @@ python all_images.py
 http://localhost:5000/
 ```
 
-### after testing, you can turn off the red led on the camera:
+### after testing, you can turn off the red LED on the camera:
 ```
 sudo nano /boot/config.txt
 ... add this line:
 disable_camera_led=1
 sudo reboot
 ```
-> Otherwise, the red led causes a reflection in the glass pane at night.
+> Otherwise, the red LED causes a reflection in the glass pane at night.
 
 ***
 
