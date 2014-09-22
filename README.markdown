@@ -170,7 +170,7 @@ ps aux | grep -i python
 > The advantages to installing and using Upstart to daemonize programs are:
 * they will start up on reboot
 * they can be set to respawn, in the case of the unforeseen this will restart the program
-* in common use on linux deployments
+* upstart is in common use on linux deployments
 
 ***
 
