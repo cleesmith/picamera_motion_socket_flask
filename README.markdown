@@ -35,7 +35,8 @@ http://www.amazon.com/gp/product/B00IJZJKK4/ref=oh_aui_detailpage_o08_s00?ie=UTF
 http://www.amazon.com/gp/product/B007VDTTTM/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1
 
 > This dummy camera has plenty of room inside, waterproof, and it is mostly metal. But 
-it's best feature is a real glass plate in front, so the captured images are clear.
+it's best feature is a real glass plate in front, so the captured images are clear if 
+kept clean.
 
 ***
 
