@@ -151,7 +151,7 @@ sudo reboot
 ```
 > Otherwise, the red LED causes a reflection in the glass pane at night.
 
-### start picamera in the background:
+### start detect_motion_socket_send.py in the background:
 
 > There following are possible ways to daemonize, i.e. start a program in the background:
 1. via nohup with ampersand ('&')
