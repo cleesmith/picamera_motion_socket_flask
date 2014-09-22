@@ -77,7 +77,13 @@ sudo apt-get install python-pip
 ```
 sudo pip install numpy
 ```
-> Numpy is used by picamera.array.PiMotionAnalysis to detect motion.
+> Numpy is used by picamera.array.PiMotionAnalysis to detect motion. Ok, the truth 
+is that there really isn't any motion detection per se.  What the code does is 
+compare is explained here (see 10.5. PiMotionArray):
+http://picamera.readthedocs.org/en/latest/array.html
+If I just turn on/off the porch light this software captures an image of the porch,
+and I highly doubt it can detect the motion of photons.  Instead the video "looks"
+different than it did before, so it captures an image.
 
 ### install Picamera:
 ```
