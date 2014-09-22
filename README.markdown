@@ -130,7 +130,7 @@ python all_images.py
 http://localhost:5000/
 ```
 
-## (4) More stuff you may want to do on the Raspberry Pi
+## (4) More about picamera on the Raspberry Pi
 
 ### after testing, you can turn off the red LED on the camera:
 ```
