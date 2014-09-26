@@ -30,6 +30,7 @@ http://www.amazon.com/gp/product/B003MTTJOY/ref=oh_aui_detailpage_o02_s00?ie=UTF
 > Update:
 > it seems the Edimax wifi adapter is not responding to the broadcast ARP request,
 > i.e doing a ping after inactivity causes "**ping: sendto: Host is down**" messages.
+> But the host is not down it's just napping, well, actually the edimax is napping.
 >
 > see: http://www.raspberrypi.org/forums/viewtopic.php?f=28&t=33369
 >
