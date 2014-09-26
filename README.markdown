@@ -27,6 +27,18 @@ http://www.amazon.com/gp/product/B00HPQGTI4/ref=oh_aui_detailpage_o02_s00?ie=UTF
 
 2. Edimax EW-7811Un 150M 11n Wi-Fi USB Adapter  $8.70
 http://www.amazon.com/gp/product/B003MTTJOY/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1
+> Update:
+> It seems the Edimax wifi adapter is not responding to the broadcast ARP request,
+> i.e doing a ping after inactivity causes "ping: sendto: Host is down" messages.
+> see: http://www.raspberrypi.org/forums/viewtopic.php?f=28&t=33369
+> The solution:
+```
+sudo nano /etc/modprobe.d/8192cu.conf
+    add:
+    # disable power management
+    options 8192cu rtw_power_mgnt=0
+sudo reboot
+```
 
 3. Raspberry Pi Camera Case  $8.99
 http://www.amazon.com/gp/product/B00IJZJKK4/ref=oh_aui_detailpage_o08_s00?ie=UTF8&psc=1
