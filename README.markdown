@@ -220,6 +220,9 @@ clean window ... plus that's less expensive
 * allow different sort order of images via web app UI
 * use machine learning and pattern image analysis to track/detect patterns and trends
 within the captured images ... yeah right, not unless my brain becomes much larger
+* attach this setup to my mailbox, so it can greet my mail carrier and snap a pic of
+the mail, and if it's all junk mail I can ignore it ... or, even better, turn the 
+mailbox into an incinerator and burn the junk mail ... somehow
 * at night you may want to have server.py play a sound when a new image arrives, which 
 could wake you up screaming "Annie get your gun!" ... of course, the
 name of your heavily armed partner may vary ... in case you're without a
