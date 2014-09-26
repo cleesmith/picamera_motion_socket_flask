@@ -227,8 +227,8 @@ imagine the fun as you try to bring the groceries inside with that on the prowl
 
 ***
 
-> No cats were harmed, maybe embarassed a bit, during this setup.  There is no 
-implied or expressed guarantee that this setup will deter thieves or mass murderers 
+> No cats were harmed during this setup, maybe embarassed a bit.  There is no 
+implied or expressed guarantee that this setup will deter any ne'er–do–well;
 should such folk approach your home.
 Otherwise, enjoy :-)
 
