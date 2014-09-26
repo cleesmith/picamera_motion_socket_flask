@@ -218,12 +218,13 @@ clean window ... plus that's less expensive
 * use SCP batch to send images
 * allow deletion of images via web app UI
 * allow different sort order of images via web app UI
-* at night have server.py play a sound when a new image arrives, which could 
-wake you up so you can then scream "Annie get your gun!" ... of course, the
+* at night you may want to have server.py play a sound when a new image arrives, which 
+could wake you up screaming "Annie get your gun!" ... of course, the
 name of your heavily armed partner may vary ... in case you're without a
 partner, maybe, create a RPi robot with an attached pistol using the
-fictitious Pigun module (be sure to set trigger=hair), name it Annie or Wyatt ... 
-imagine the fun as you try to bring the groceries inside with that on the prowl
+soon-to-be-developed Pigun module (don't forget to set trigger=hair), name it Annie or Wyatt 
+... imagine the fun as you try to bring the groceries in from your car with that robot 
+on the prowl
 
 ***
 
