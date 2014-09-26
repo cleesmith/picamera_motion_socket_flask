@@ -32,13 +32,13 @@ http://www.amazon.com/gp/product/B003MTTJOY/ref=oh_aui_detailpage_o02_s00?ie=UTF
 > i.e doing a ping after inactivity causes "ping: sendto: Host is down" messages.
 > see: http://www.raspberrypi.org/forums/viewtopic.php?f=28&t=33369
 > The solution:
-```
-sudo nano /etc/modprobe.d/8192cu.conf
-    add:
-    # disable power management
-    options 8192cu rtw_power_mgnt=0
-sudo reboot
-```
+> ```
+> sudo nano /etc/modprobe.d/8192cu.conf
+>     add:
+>     # disable power management
+>     options 8192cu rtw_power_mgnt=0
+> sudo reboot
+> ```
 
 3. Raspberry Pi Camera Case  $8.99
 http://www.amazon.com/gp/product/B00IJZJKK4/ref=oh_aui_detailpage_o08_s00?ie=UTF8&psc=1
