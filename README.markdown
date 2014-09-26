@@ -222,7 +222,7 @@ clean window ... plus that's less expensive
 could wake you up screaming "Annie get your gun!" ... of course, the
 name of your heavily armed partner may vary ... in case you're without a
 partner, maybe, create a RPi robot with an attached pistol using the
-soon-to-be-developed Pigun module (don't forget to set trigger=hair), name it Annie or Wyatt 
+soon-to-be-developed Pigun module (don't forget to set trigger=hair)
 ... imagine the fun as you try to bring the groceries in from your car with that robot 
 on the prowl
 
