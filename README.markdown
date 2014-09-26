@@ -36,8 +36,8 @@ http://www.amazon.com/gp/product/B003MTTJOY/ref=oh_aui_detailpage_o02_s00?ie=UTF
 > The solution:
 > ```
 > sudo nano /etc/modprobe.d/8192cu.conf
->     add:
->     # disable power management
+>     add these lines:
+>     # disable power management:
 >     options 8192cu rtw_power_mgnt=0
 > sudo reboot
 > ```
