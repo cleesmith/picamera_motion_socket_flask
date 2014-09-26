@@ -224,9 +224,9 @@ within the captured images ... yeah right, not unless my brain becomes much larg
 could wake you up screaming "Annie get your gun!" ... of course, the
 name of your heavily armed partner may vary ... in case you're without a
 partner, maybe, create a RPi robot with an attached pistol using the
-soon-to-be-developed Pigun module (don't forget to set trigger=hair)
-... imagine the fun as you try to bring the groceries in from your car with that robot 
-on the prowl
+soon-to-be-developed PiSlinger module (don't forget to set trigger=hair)
+... imagine the fun as you try to bring the groceries indoors from your car with that 
+robot on the prowl
 
 ***
 
