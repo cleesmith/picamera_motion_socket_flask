@@ -215,8 +215,8 @@ clean window ... plus that's less expensive
 
 ## Future enhancements
 * perform image sends from the pi asynchronously
-* use SCP batch to send images
-* allow deletion of images via web app UI
+* use SCP batch to send images more securely, if to a remote server (non-home)
+* allow deletion of images via web app UI, or auto-delete after a week
 * allow different sort order of images via web app UI
 * at night you may want to have server.py play a sound when a new image arrives, which 
 could wake you up screaming "Annie get your gun!" ... of course, the
