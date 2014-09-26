@@ -62,7 +62,8 @@ http://www.amazon.com/gp/product/B008X099PQ/ref=oh_aui_detailpage_o02_s00?ie=UTF
 
 > These motion sensor lights work great and they usually detect motion before the Picamera
 which means you get a well lit image. They do require 3 D size batteries, which makes 
-them heavy like tiny boat anchors.
+them heavy like tiny boat anchors. By "well lit image" I mean within about 10-12 feet
+from the camera, and anything past that distance is just dark.
 
 ***
 
