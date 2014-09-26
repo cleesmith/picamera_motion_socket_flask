@@ -70,7 +70,7 @@ from the camera, and anything past that distance is just dark.
 
 # Installation Guide
 
-## (1) on the Raspberry Pi and the other server
+## (1) On the Raspberry Pi and the other server
 
 ### ensure Python is installed:
 ```
@@ -87,7 +87,7 @@ sudo apt-get install python-pip
 
 ***
 
-## (2) on the Raspberry Pi
+## (2) Just on the Raspberry Pi
 
 ### install Numpy:
 ```
@@ -124,8 +124,7 @@ the above ... see below.
 ## (3) On another server
 > Maybe, on the same Raspberry Pi (RPi). This was not tested, because if you're using
 this setup to "catch a thief" or whatever then having the images on the RPi isn't 
-going to help as they could just smash it or take it ... leaving you with no images.
-Of course, this all depends on your situation.
+going to help as any ne'er–do–well could just smash it or take it ... leaving you with no images.
 
 ### start socket server:
 ```
