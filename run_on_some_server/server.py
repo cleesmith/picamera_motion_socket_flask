@@ -1,5 +1,13 @@
 import socket
-import datetime
+from datetime import datetime
+from pytz import timezone
+import pytz
+
+server_now = datetime.now() # should be UTC
+utc = pytz.timezone('UTC')
+dt_utc = utc.localize(server_now)
+eastern = timezone('America/New_York')
+dt_et = dt_utc.astimezone(eastern)
 
 # change_me: to your host and port:
 HOST = '192.168.0.2'
@@ -16,7 +24,15 @@ while True:
   # if you capture images as png then change the '.jpg' ...
   # change_me: ensure complete path to images folder is correct:
   filename = '/some/folder/picamera_motion_socket/images/static/' + \
-    datetime.datetime.now().strftime('%Y-%m-%dT%H.%M.%S.%f') + '.jpg'
+    datetime.now().strftime('%Y-%m-%dT%H.%M.%S.%f') + '.jpg'
+  # or datetime stamp in EDT/EST (for example):
+  # server_now = datetime.now() # should be UTC
+  # utc = pytz.timezone('UTC')
+  # dt_utc = utc.localize(server_now)
+  # eastern = timezone('America/New_York')
+  # dt_et = dt_utc.astimezone(eastern)
+  # filename = '/some/folder/picamera_motion_socket_flask/run_on_some_server/images_web_app/static/' + \
+  #   dt_et.strftime('%Y-%m-%dT%H.%M.%S.%f') + '.jpg'
   # create and open file for writing:
   myfile = open(filename, 'w')
 

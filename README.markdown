@@ -1,4 +1,4 @@
-# Sep 2014: Raspberry Pi
+# Oct 2014: Raspberry Pi
 # Picamera motion detection
 
 ***
